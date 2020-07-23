@@ -6,6 +6,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import mapboxgl from "mapbox-gl";
 
+var MAPBOX_ID = process.env.REACT_APP_MAPBOX_KEY;
+// var test_id = process.env.REACT_APP_ENV_TEST;
+
+console.log(MAPBOX_ID);
+
 mapboxgl.accessToken =
 	"pk.eyJ1Ijoic2VhbmxlaWZoZWxsaWVyIiwiYSI6ImNrNDV5anVzZDBkdjczbHA1dW5rNHNwcmEifQ.iSbpiPjqUBw2n881PqsbuQ";
 
