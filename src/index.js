@@ -59,8 +59,8 @@ class Application extends React.Component {
 				map.setFilter("earthquake-circles", filters);
 				map.setFilter("earthquake-labels", filters);
 				// Set the label to the month
-
 				document.getElementById("month").textContent = months[month];
+				document.getElementById("slider").value = `${month}`;
 			}
 			// Data courtesy of http://earthquake.usgs.gov/
 			// Query for significant earthquakes in 2015 URL request looked like this:
